@@ -11,7 +11,7 @@
 			<input type="text" name="username" class="form_login" placeholder="Username atau email ..">
 
 			<label>Password</label>
-            <input type="text" name="password" class="form_login" placeholder="Password ..">
+            <input type="password" name="password" class="form_login" placeholder="Password ..">
             <input type="checkbox" name="setcookie" value="true"> Remember me
             </p>
             <input type="submit" class="tombol_login" value="LOGIN"></p>
