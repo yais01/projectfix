@@ -3,10 +3,15 @@
 <head>
     <title>PENDAFTARAN ANGGOTA</title>
     <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-<div class="kotak_login">
-    <form method="POST" action="prosespendaftaran.php">
+    <div class="container-fluid">
+    <div class="row justify-content-center mt-3">
+			<div class="col-lg-4">
+			<div class="card shadow p-3">
+		<form>
+        <form method="POST" action="prosespendaftaran.php">
         <label>Username</label>
         <input type="text" name="username" class="form_login">
         <label>Alamat</label>
@@ -25,9 +30,12 @@
         <label>Scan KTP</label>
         <input type="file" name="scan_ktp" class="form_login" >
         <p>
-            <input type="submit" name="send" value="DAFTAR" class="tombol_daftar">
+            <input type="submit" name="send" value="DAFTAR" class="btn btn-primary w-100">
         </p>
     </form>
+    </div>
+</div>
+</div>
 </div>
 </body>
 </html>

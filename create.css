@@ -1,7 +1,6 @@
 body{
 	font-family: sans-serif;
 	background: #d5f0f3;
-    
 }
 
 h1{
@@ -10,21 +9,25 @@ h1{
 	font-weight: 300;
 }
 
+.tulisan_create{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
 
-.kotak_login{
-	width: 350px;
+.kotak_create{
+	width: 750px;
 	background: white;
 	/*meletakkan form ke tengah*/
 	margin: 80px auto;
-    padding: 30px 20px;
-    overflow: hidden;
+	padding: 30px 20px;
 }
 
 label{
 	font-size: 11pt;
 }
 
-.form_login{
+.form_create{
 	/*membuat lebar form penuh*/
 	box-sizing : border-box;
 	width: 100%;
@@ -33,7 +36,7 @@ label{
 	margin-bottom: 20px;
 }
 
-.tombol_login{
+.tombol_create{
 	background: #46de4b;
 	color: white;
 	font-size: 11pt;
@@ -43,19 +46,16 @@ label{
 	padding: 10px 20px;
 }
 
-.tombol_daftar{
-	background: #0000FF;
-	color: white;
-    font-size: 11pt;
-	width: 100%;
-	border: none;
-	border-radius: 3px;
-    padding: 10px 20px;
-    text-align: center;
-}
-
 .link{
 	color: #232323;
 	text-decoration: none;
-	font-size: 10pt;
+    font-size: 10pt;
+}
+.form_desc{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 60px;
+	font-size: 11pt;
+	margin-bottom: 10px;
 }
